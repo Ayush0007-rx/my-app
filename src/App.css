@@ -37,3 +37,10 @@ header {
 h1 {
   font-size: 20em;
 }
+
+.carousal-dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}

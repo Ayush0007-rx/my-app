@@ -101,34 +101,24 @@ function App() {
 
       <div style={{ padding: '50px' }}>
         <Carousel showThumbs={false} autoPlay interval={3000} infiniteLoop>
-          <div>
+          <div className='carousal-dev'>
             <img src={exampleimage14} alt="Example" style={imageStyle5}/>
-          </div>
-          <div>
             <img src={exampleimage15} alt="Example" style={imageStyle5}/>
           </div>
-          <div>
+          <div className='carousal-dev'>
             <img src={exampleimage16} alt="Example" style={imageStyle5}/>
-          </div>
-          <div>
             <img src={exampleimage17} alt="Example" style={imageStyle5}/>
           </div>
-          <div>
+          <div className='carousal-dev'>
             <img src={exampleimage18} alt="Example" style={imageStyle5}/>
-          </div>
-          <div>
             <img src={exampleimage19} alt="Example" style={imageStyle5}/>
           </div>
-          <div>
+          <div className='carousal-dev'>
             <img src={exampleimage20} alt="Example" style={imageStyle5}/>
-          </div>
-          <div>
             <img src={exampleimage21} alt="Example" style={imageStyle5}/>
           </div>
-          <div>
+          <div className='carousal-dev' >
             <img src={exampleimage22} alt="Example" style={imageStyle5}/>
-          </div>
-          <div>
             <img src={exampleimage23} alt="Example" style={imageStyle5}/>
           </div>
         </Carousel>
@@ -178,8 +168,8 @@ const imageStyle4 = {
 };
 
 const imageStyle5 = {
-  width: '900px',
-  height: '450px' // Optional: Add some margin to separate the image from the header
+  width: '700px',
+  height: '250px' // Optional: Add some margin to separate the image from the header
 };
 
 export default App;
