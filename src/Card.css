@@ -71,6 +71,5 @@
   .special-card .card-image {
     width: 100px;
     height: 100px;
-    margin: '50px';
     object-fit: cover
   }
