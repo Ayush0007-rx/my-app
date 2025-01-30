@@ -27,12 +27,13 @@
   .card-description {
     font-size: 0.8em;
     color: #555;
+    margin-top: "1px";
   }
 
   
   .card-title {
     font-size: 1.4em;
-    margin: 0 0 10px;
+    margin: 0px;
   }
 
   .card-button {

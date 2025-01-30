@@ -1,0 +1,20 @@
+/* filepath: /c:/Users/itash/my-app/src/Footer.css */
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  text-align: Left;
+}
+
+.footer-content {
+  background-color: #000000;
+  max-width: 700px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: Left;
+}
+
+.footer-logo {
+    max-width: 150px; /* Adjust the size as needed */
+    margin-bottom: 10px;
+  }

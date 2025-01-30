@@ -10,7 +10,7 @@ function Header() {
         <img src={logo} alt="UnStop Logo" style={logoStyle} />
             <input type="text" placeholder="Search Opportunities." style={searchBarStyle} />
             <ul className='nav-list' style={{display: 'flex', listStyleType: 'none', alignItems: 'center', justifyContent: 'center', gap: '10px', marginTop: '1px', marginBottom:'1px'}}>
-                <li style={{ paddingRight: '30px'}}>Internship</li>
+                <li style={{ paddingRight: '30px' }}>Internship</li>
                 <li style={{ paddingRight: '30px'}}>Jobs</li>
                 <li style={{ paddingRight: '30px'}}>Competions</li>
                 <li style={{ paddingRight: '30px'}}>Mentorships</li>

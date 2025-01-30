@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import Header from './Header';
 import Card from './Card';
+import Footer from './Footer';
 import './App.css';
 import exampleImage from './image1.jpg';
 import exampleimage from './image3.jpg';
@@ -43,6 +44,7 @@ import exampleimage37 from './image37.jpg';
 import exampleimage38 from './image38.jpg';
 import exampleimage39 from './image39.jpg';
 import exampleimage40 from './image40.jpg';
+import exampleimage41 from './image41.jpg';
 import exampledimond from './dimond.jpg';
 
 
@@ -289,37 +291,41 @@ function App() {
            image={exampleimage36}
            title="Product Manager"
            description="Shape the products people love"
+           description2="View Assessments"
          />
         <Card
            image={exampleimage37}
            title="Data Analyst"
            description="Turn data into decisions"
+           description2="View Assessments"
          />
          <Card
            image={exampleimage38}
            title="Software Developer"
            description="Code the future, one line at a time"
+           description2="View Assessments"
          />
          <Card
            image={exampleimage39}
            title="Social Media Manager"
            description="Turn followers into fans"
+           description2="View Assessments"
          />
          </div>
        </div>
 
        <div>
-        <h2 style={{ marginLeft: '200px',  fontSize: '38px', paddingTop: '60px', marginBottom:'8px'}}>Role Based Mock Test (Assessments)</h2>
-        <p style={{ marginLeft: '200px', marginBottom: '30px', marginTop:'8px'}}>Master your concepts with level-wise tests, followed by full-length mock exams for 360° preparation!</p>
+        <h2 style={{ marginLeft: '200px',  fontSize: '38px', paddingTop: '60px', marginBottom:'8px'}}>Practice Coding & Ace Hiring Assessments</h2>
+        <p style={{ marginLeft: '200px', marginBottom: '30px', marginTop:'8px'}}> Level up your coding skills by practicing the hiring assessments of your dream companies & ace your placement game!</p>
         <div style={{display: 'flex', flexDirection: 'row', marginLeft: '250px'}}>
         <img src={exampleimage40} alt="Example" style={imageStyle6}/> 
         <div style={{backgroundColor:'#f0f0f0'}}>
         <h2 style={{fontSize: '34px', paddingLeft:'30px'}}>Learn & Level Up Your Skills</h2>
         <p style={{paddingLeft:'30px', paddingRight:'100px'}}>Select from a wide range of courses to upskill and advance your career!</p>
           <div style={{display: 'flex', flexDirection: 'row', paddingLeft:'30px'}}>
-            <ul>50+ Courses</ul>
-            <ul>Certificate</ul>
-            <ul>Projects & Assignments</ul>
+            <ul> <img src={exampleimage41} alt="Example" style={imageStyle8}/> 50+ Courses</ul>
+            <ul> <img src={exampleimage41} alt="Example" style={imageStyle8}/>Certificate</ul>
+            <ul> <img src={exampleimage41} alt="Example" style={imageStyle8}/>Projects & Assignments</ul>
           </div>
        <div style={{paddingLeft:'30px', paddingTop:'30px'}}>
         <button style={{fontSize:'20px', backgroundColor:'#1E407C', color:'#FFFFFF', borderRadius: '50px', padding: '10px 20px'}}><b>Explore Courses</b></button>
@@ -331,6 +337,29 @@ function App() {
        <div>
         <h2 style={{ marginLeft: '200px',  fontSize: '38px', paddingTop: '60px', marginBottom:'8px'}}>Pick The RIght Opportunity!</h2>
         <span style={{ marginLeft: '200px', marginTop: '8px'}}>Explore opportunities that best suits your skills and interests!</span>
+
+
+
+
+
+
+
+
+
+        <div>
+      
+        
+        </div>
+
+
+
+
+
+
+
+
+
+
        </div>
 
 
@@ -340,7 +369,7 @@ function App() {
         <h2 style={{fontSize: '36px'}}>Our Numbers</h2>
        </div>
 
-        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: '40px'}}>
+        <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: '40px', marginBottom:'70px'}}>
         <div style={{backgroundColor:'#f0f0f0', paddingLeft: '30px', paddingRight: '30px', borderRadius: '12px', fontSize: '20px'}}>
           <h2 style={{paddingLeft:'15px'}}>19M+</h2>
           <p>Active Users</p>
@@ -366,8 +395,7 @@ function App() {
           <p>Countries</p>
         </div>
         </div>
-
-
+      <Footer />
     </div>
   );
 }
@@ -412,6 +440,12 @@ const imageStyle6 = {
 const imageStyle7 = {
   width: '40px',
   height: '40px' // Optional: Add some margin to separate the image from the header
+};
+
+const imageStyle8 = {
+  width: '24px',
+  height: '18px',
+  marginRight:'5px' // Optional: Add some margin to separate the image from the header
 };
 
 export default App;
