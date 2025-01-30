@@ -45,6 +45,10 @@ import exampleimage38 from './image38.jpg';
 import exampleimage39 from './image39.jpg';
 import exampleimage40 from './image40.jpg';
 import exampleimage41 from './image41.jpg';
+import exampleimage44 from './image44.jpg';
+import exampleimage45 from './image45.jpg';
+import exampleimage46 from './image46.jpg';
+import exampleimage47 from './image47.jpg';
 import exampledimond from './dimond.jpg';
 
 
@@ -54,7 +58,7 @@ function App() {
   };
 
   return (
-    <div className="App left-align with-padding">
+    <div className="App left-align">
       <Header />
       <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'right', paddingRight: '100px', paddingTop: '50px' }}>
         <div style={{ alignItems: 'left', paddingRight: '350px', paddingTop: '10px', paddingLeft: '250px' }}>
@@ -282,6 +286,45 @@ function App() {
          />
          </div>
        </div>
+
+       <div>
+        <h2 style={{ marginLeft: '200px',  fontSize: '38px', paddingTop: '60px', marginBottom:'8px'}}>Top Mentors</h2>
+        <p style={{ marginLeft: '200px', marginTop:'8px'}}>In search of excellence? Explore the highest-rated mentors as recognized by the learner community.</p>
+        <div style={{ padding: '50px', backgroundColor: '#ffffff', display: 'flex', flexDirection: 'row', marginLeft: '115px'}}>
+          <Card
+             className="profile-card"
+             image={exampleimage44}
+             title="DNYANESHWAR MASKE"
+             description="Udan Airways"
+             buttonLabel="View Profile"
+             onButtonClick={handleButtonClick}
+          />
+          <Card
+            className="profile-card"
+            image={exampleimage45}
+            title="Yash Patel"
+            description="Bharath Cloud"
+            buttonLabel="View Profile"
+            onButtonClick={handleButtonClick}
+          />
+          <Card
+            className="profile-card"
+            image={exampleimage46}
+            title="Rutwik Borkar"
+            description="Ek junction"
+            buttonLabel="View Profile"
+            onButtonClick={handleButtonClick}
+          />
+          <Card
+            className="profile-card"
+            image={exampleimage47}
+            title="Palak Gupta"
+            description="SharePal.in"
+            buttonLabel="View Profile"
+            onButtonClick={handleButtonClick}
+         />
+         </div>
+       </div>
        
        <div>
         <h2 style={{ marginLeft: '200px',  fontSize: '38px', paddingTop: '60px', marginBottom:'8px'}}>Role Based Mock Test (Assessments)</h2>
@@ -395,7 +438,7 @@ function App() {
           <p>Countries</p>
         </div>
         </div>
-      <Footer />
+        <Footer />
     </div>
   );
 }
